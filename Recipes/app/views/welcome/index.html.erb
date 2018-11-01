@@ -1,0 +1,64 @@
+<html>
+    <head>
+       <h1>
+            <span><b>Good Eats</b>
+            </br>
+            Your Online Community Cookbook</span>
+        </h1>
+         
+    </head>
+    <body>
+    <div id="wrap">
+        <div class = "left">
+            <p>
+            Our goal is to create an online community recipe cookbook. 
+            It will allow for members of the community to publicly add 
+            recipes to our cookbook and view recipes from other active
+            "chefs" in our community. Happy Cooking :)
+            </p>
+            </br>
+        <table>    
+          <tr>
+            <th>Some of our favorites</th>
+          </tr>
+          <tr>
+            <td>Recipe 1(will eventually be a link)</td>
+          </tr>
+          <tr>
+            <td>Recipe 2(will eventually be a link)</td>
+          </tr>
+          <tr>
+            <td>Recipe 3(will eventually be a link)</td>
+          </tr>
+          <tr>
+              <td><%= link_to 'Want to view more Recipes?', controller: 'articles' %></td>
+            </tr>
+        </table>
+             
+        </div>
+        
+        <div class = "right">
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             </br>
+             <h2>
+                 Want to add your own Recipe?
+                 </h2>
+        <%= link_to 'New article', new_article_path %>
+        </div>
+    </div>
+ </body>
+</html>

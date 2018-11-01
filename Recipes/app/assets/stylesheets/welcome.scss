@@ -1,0 +1,74 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html
+{
+  background: linear-gradient(to right, #e14423 25%, #f2c08d 75%);
+}
+head
+{
+  height: 100%;
+  width: 100%;
+}
+#wrap
+{
+  width: 100%;
+  height: 100%;
+}
+.left
+{
+  width: 45%;
+  
+  height: 400px;
+  float:left;
+}
+.right
+{
+  width: 45%;
+  
+  height: 400px;
+  float:right;
+}
+
+body
+{
+     
+}
+
+p
+{
+  font-size: 24px;
+}
+
+
+h1 
+{
+  span { font-size: 24px;}
+  span b { font-size: 40px; }
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: #992946;
+    text-align: center;
+    font-size: 40px;
+    color:  #59f75f;
+    
+}
+
+h2
+{
+  font-size: 30px;
+  color:  #59f75f;
+}
+
+table
+{
+  width: 100%;
+   background-color: #992946;
+  
+}
+
+a
+{
+  color: #ff42da; 
+}
