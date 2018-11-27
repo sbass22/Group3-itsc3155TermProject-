@@ -17,27 +17,34 @@
             "chefs" in our community. Happy Cooking :)
             </p>
             </br>
-        <table>    
-          <tr>
-            <th>Some of our favorites</th>
-          </tr>
-          <tr>
-            <td>Recipe 1(will eventually be a link)</td>
-          </tr>
-          <tr>
-            <td>Recipe 2(will eventually be a link)</td>
-          </tr>
-          <tr>
-            <td>Recipe 3(will eventually be a link)</td>
-          </tr>
-          <tr>
-              <td><%= link_to 'Want to view more Recipes?', controller: 'articles' %></td>
-            </tr>
+    
+        <table class="rTable">
+            <thead>
+                <tr>
+                    <th>Some of our Favorites</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Recipe 1 Name (will be link)</td>
+                </tr>
+                <tr>
+                    <td>Recipe 2 Name (will be link)</td>
+                </tr>
+                <tr>
+                    <td>Recipe 3 Name (will be link)</td>
+                </tr>
+                <tr>
+                    <td><%= link_to 'Want to view more Recipes?', controller: 'articles' %></td>
+                </tr>
+            </tbody>
         </table>
+             
              
         </div>
         
         <div class = "right">
+<<<<<<< HEAD
              </br>
              </br>
              </br>
@@ -56,6 +63,13 @@
                  Want to add your own Recipe?
                  </h2>
         <%= link_to 'Create A New Recipe', new_article_path %>
+=======
+             <%= image_tag("burrito-chicken-close-up-461198.jpg")%>
+             <h2>
+                 Want to add your own Recipe?
+                 </h2>
+        <%= link_to 'Create a New Recipe', new_article_path %>
+>>>>>>> f99ca4f9a55f70a2255a72bcea23c5cd70ffa0f8
         </div>
     </div>
  </body>
