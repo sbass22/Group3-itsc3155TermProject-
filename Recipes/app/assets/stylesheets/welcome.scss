@@ -1,6 +1,3 @@
-// Place all the styles related to the Welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 html
 {
   background: linear-gradient(to right, #e14423 25%, #f2c08d 75%);
@@ -18,21 +15,14 @@ head
 .left
 {
   width: 45%;
-  
   height: 400px;
   float:left;
 }
 .right
 {
   width: 45%;
-  
   height: 400px;
   float:right;
-}
-
-body
-{
-    
 }
 
 p
@@ -69,6 +59,12 @@ a
 img
 {
   width: 100%;
+}
+
+table
+{
+  width: 100%;
+  background-color: #992946;
 }
 
 table.rTable {
