@@ -8,60 +8,53 @@
          
     </head>
     <body>
-    <div id="wrap">
-        <div class = "left">
-            <p>
-            Our goal is to create an online community recipe cookbook. 
-            It will allow for members of the community to publicly add 
-            recipes to our cookbook and view recipes from other active
-            "chefs" in our community. Happy Cooking :)
-            </p>
-            </br>
-    
-        <table class="rTable">
-            <thead>
-                <tr>
-                    <th>Some of our Favorites</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Recipe 1 Name (will be link)</td>
-                </tr>
-                <tr>
-                    <td>Recipe 2 Name (will be link)</td>
-                </tr>
-                <tr>
-                    <td>Recipe 3 Name (will be link)</td>
-                </tr>
-                <tr>
-                    <td><%= link_to 'Want to view more Recipes?', controller: 'articles' %></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class = "food_image"> <%= image_tag("food.jpg")%> </div>
+        <div id="wrap">
+            <div class = "left">
+                    <h2>Our Goal</h2>
+                    <p class = "border">
+                    Our goal is to create an online community recipe cookbook. 
+                    It will allow for members of the community to publicly add 
+                    recipes to our cookbook and view recipes from other active
+                    "chefs" in our community. Being able to prepare your own meal 
+                    is a mark of independence, maturity and financial stability.
+                    We also have some of our favorite recipes yet simple for you to benchmark your 
+                    abilities in the kitchen.
+                    Happy Cooking :)
+                    </p>
+                    
+                <h2>Want to view some delicious recipes?</h2>
+                <table class="rTable">
+                    <thead>
+                        <tr>
+                            <th>Some of our Favorites</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>Recipe 1 Name (will be link)</td>
+                        </tr>
+                        <tr>
+                            <td>Recipe 2 Name (will be link)</td>
+                        </tr>
+                        <tr>
+                            <td>Recipe 3 Name (will be link)</td>
+                        </tr>
+                        <tr>
+                            <td><%= link_to 'Want to view more Recipes?', controller: 'articles' %></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class = "right">
+                 <h2>
+                     Want to add your own Recipe?
+                </h2>
+                 <%= image_tag("burrito-chicken-close-up-461198.jpg")%>
+                 <%= link_to 'Create A New Recipe', new_article_path %>
+            </div>
         </div>
-        
-        <div class = "right">
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-             <h2>
-                 Want to add your own Recipe?
-            </h2>
-             <%= image_tag("burrito-chicken-close-up-461198.jpg")%>
-             <%= link_to 'Create A New Recipe', new_article_path %>
-        </div>
-    </div>
  </body>
 </html>

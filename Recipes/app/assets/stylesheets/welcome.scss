@@ -12,17 +12,18 @@ head
   width: 100%;
   height: 100%;
 }
+
 .left
 {
-  width: 45%;
+  width: 47%;
   height: 400px;
-  float:left;
+  float: left;
 }
 .right
 {
-  width: 45%;
+  width: 47%;
   height: 400px;
-  float:right;
+  float: right;
 }
 
 p
@@ -61,10 +62,28 @@ img
   width: 100%;
 }
 
+.food_image
+{
+  width: 47%;
+  float:right;
+}
+
+.border
+{
+  width: 100%;
+  padding: 15px 18px;
+  border: 3px solid black;
+}
+
 table
 {
   width: 100%;
   background-color: #992946;
+}
+
+.rTable
+{
+  margin: 30px;
 }
 
 table.rTable {
