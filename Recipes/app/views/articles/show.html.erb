@@ -13,5 +13,32 @@
     <%=@article.Directions %>
 </p>
 
+<h2>Comments</h2>
+<% @article.comments.each do |comment| %>
+    <p>
+        <strong>Author Name:</strong>
+        <%= comment.commenter %>
+    </p>
+    <p>
+        <strong>Comment:</strong>
+        <%= comment.body %>
+    </p>
+<% end %>
+
+<h3>Add a comment</h3>
+<%= form_for([@article, @article.comments.build]) do |f| %>
+  <p>
+    <%= f.label :Author_Name %><br>
+    <%= f.text_field :commenter %>
+  </p>
+  <p>
+    <%= f.label :Comment %><br>
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+    
 </br>
  <%= link_to 'Back To Recipe Book', articles_path %>
