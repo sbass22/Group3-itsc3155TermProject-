@@ -44,6 +44,7 @@ group :development, :test do
   # Here are the steps to follow to install it if needed.
   # Run bundle config git.allow_insecure true and bundle install to install the new gem
   # Setup cucumber by typing rails generate rspec:install 
+  # To test rspec use this command : rspec -f documentation
   
   gem 'rspec-rails'
   gem 'capybara'
