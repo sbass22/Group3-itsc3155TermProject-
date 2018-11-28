@@ -41,6 +41,10 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   
   # These are the gems for Capybara and R-spec, They are from RailsTesting2.pdf
+  # Here are the steps to follow to install it if needed.
+  # Run bundle config git.allow_insecure true and bundle install to install the new gem
+  # Setup cucumber by typing rails generate rspec:install 
+  
   gem 'rspec-rails'
   gem 'capybara'
 end
