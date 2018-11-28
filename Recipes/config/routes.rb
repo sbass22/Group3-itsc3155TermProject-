@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'recipe3/recipe3'
+  get 'recipe2/recipe2'
+  get 'recipe/recipe1'
   get 'welcome/index'
   
   resources :articles do

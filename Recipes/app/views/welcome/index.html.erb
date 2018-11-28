@@ -3,7 +3,7 @@
        <h1>
             <span><b>Good Eats</b>
             </br>
-            Your Online Community Cookbook</span>
+            Your Online Personal Cookbook</span>
         </h1>
          
     </head>
@@ -33,13 +33,13 @@
                     
                     <tbody>
                         <tr>
-                            <td>Recipe 1 Name (will be link)</td>
+                            <td><%= link_to 'Shepherds pie', recipe_recipe1_path %></td>
                         </tr>
                         <tr>
-                            <td>Recipe 2 Name (will be link)</td>
+                            <td><%= link_to 'Pecan Pie', recipe2_recipe2_path %></td>
                         </tr>
                         <tr>
-                            <td>Recipe 3 Name (will be link)</td>
+                            <td><%= link_to 'Blueberry Scones with Lemon Glaze', recipe3_recipe3_path %></td>
                         </tr>
                         <tr>
                             <td><%= link_to 'Want to view more Recipes?', controller: 'articles' %></td>

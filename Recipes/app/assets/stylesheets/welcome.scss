@@ -103,7 +103,7 @@ table.rTable td, table.rTable th {
   padding: 3px 2px;
 }
 table.rTable tbody td {
-  font-size: 13px;
+  font-size: 20px;
 }
 table.rTable tr:nth-child(even) {
   background: #ECB1C1;
@@ -120,4 +120,10 @@ table.rTable thead th {
   font-weight: bold;
   color: #FFFFFF;
   text-align: center
+}
+
+text
+{
+  white-space: pre-line;
+  
 }
