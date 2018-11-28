@@ -20,9 +20,12 @@
 
 <h2>Comments</h2>
 <%= render @article.comments %>
-
-<h3>Add a comment</h3>
-<%= render 'comments/form' %>
-
 </br>
- <%= link_to 'Back To Recipe Book', articles_path %>
+</br>
+</br>
+
+<h2>Add a Comment</h2>
+<%= render 'comments/form' %>
+<div class = "link">
+    <%= link_to 'Back To Recipe Book', articles_path %>
+</div>
